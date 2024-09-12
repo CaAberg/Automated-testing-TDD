@@ -45,22 +45,4 @@ describe("Save new score function works as expected", () => {
         
     
     })
-
-    // test("scores saved to the array", () => {
-    //     render(<SaveScore count={0} scores={[15, 20, 8]} addScore={() => {}} />)
-        
-    //     let saveItem = screen.queryAllByTestId("save-item")
-        
-    //     expect(saveItem.length).toBe(3)
-        
-    //     let saveButton = screen.getByTestId("saveScoreButton")
-
-    //     fireEvent.click(saveButton);
-    //     saveItem = screen.queryAllByTestId("save-item")
-    //     expect(saveItem.length).toBe(1)
-      
-    
-    // })
-   
-    
 })

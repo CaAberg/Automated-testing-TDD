@@ -1,8 +1,6 @@
 import {render, screen} from '@testing-library/react'
 import Practice from '.'
 
-
-
 describe("That header, subtitle and paragraph, are rendered correctly", () => {
   beforeEach(() => {
     render(<Practice />);
