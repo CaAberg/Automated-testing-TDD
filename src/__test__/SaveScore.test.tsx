@@ -17,19 +17,14 @@ describe("Save new score function works as expected", () => {
 
         expect(saveScoreButton).toBeInTheDocument();
         expect(saveScoreButton).toHaveTextContent("Save score!"); 
-
     });
     
-
     test("test if score array is empty, nothing is showed", () => {
         render(<SaveScore count={0} scores={[]} addScore={() => {}} />)
         const mockArray = null
         let scores = screen.queryAllByTestId("save-item")
         
-        //expect(scores.length).not.toBeInTheDocument()
-        
         expect(scores.length).not.toBe(mockArray);
-
     })
     
     test("prevues saved score are rendered", () => {
@@ -40,9 +35,5 @@ describe("Save new score function works as expected", () => {
         expect(saveItem.length).toBe(3)
         expect(saveItem[0]).toHaveTextContent("15")
         expect(saveItem[1]).toHaveTextContent("20")
-
-
-        
-    
     })
 })
