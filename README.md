@@ -1,23 +1,25 @@
-Header With Subtitle
+Header and subtitle
 ![alt text](image.png)
 
 Some content with text in bottom of page
-![alt text](image-9.png)
-
 ![alt text](image-1.png)
-Timer that is sett to 10 seconds and a score keeper that is set to 0 when start the game
 
+Timer that is sett to 10 seconds and a score keeper that is set to 0 when start the game
 ![alt text](image-2.png)
+
 Start button, when click on start button, another button shows and can be clicked until timer sets to 0
 ![alt text](image-3.png)
-When timer is 0 button not showing and score is now showing how many times the user pressed the button
+
+When timer is 0 Go button is now not showing instead score is showing how many times the user pressed the button
 ![alt text](image-5.png)
-At same time as the button is hidden two other buttons turns up, Save score and play again. It will also show the users
-clicked result. The save score board will also show:
+It will also show the score, save score button, play again button and the saved score scoreboard.
 ![alt text](image-6.png)
 
-IF user press save score button the amount of click will be saved to the save score keeper
-![alt text](image-7.png)
-
-If user press play again button, the score board will be hidden and start button will aper
+IF player press save button. The score is saved to the scoreboard
 ![alt text](image-8.png)
+
+IF the user press the play agin button the start button will show, and the save score, play agin button is hidden. Also the scoreboard will be hidden
+![alt text](image-10.png)
+
+Now the game starts over and next time time is up save score, play again, and result will show again. You are also able to see your old score in the score board
+![alt text](image-11.png)
