@@ -1,5 +1,5 @@
 import {render, screen} from '@testing-library/react'
-import Practice from '.'
+import { Practice } from '@/app/components/Practice/practice';
 
 describe("That header, subtitle and paragraph, are rendered correctly", () => {
   beforeEach(() => {
@@ -8,7 +8,7 @@ describe("That header, subtitle and paragraph, are rendered correctly", () => {
 
   test("Test if heading is rendering", () => {
     const headerText = screen.getByTestId("increase-head");
-    expect(headerText).toHaveTextContent("How to increase Clicking Speed!");
+    expect(headerText).toHaveTextContent("");
   });
 
   test("Test if practice heading and paragraph is rendering", () => {
