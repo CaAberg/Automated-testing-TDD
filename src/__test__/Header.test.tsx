@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Header from '.'
+import { Header } from '@/app/components/Header/header'
 
 describe("Header is rendered correctly", () => {
 
