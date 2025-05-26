@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import StartButton from '.'
+import StartButton from '../app/components/Buttons/StartButton/startbutton';
 
 describe("Check if there is a button", () => {
     

@@ -1,5 +1,5 @@
 import {render, screen, fireEvent, act, createEvent} from '@testing-library/react'
-import Home from './page'
+import Home from '@/app/page';
 
 beforeEach(() => {
     jest.useFakeTimers();
@@ -42,7 +42,7 @@ describe("Test all functionality works", () => {
         }
 
         act(() => {
-            jest.advanceTimersByTime(10000); // för tiden
+            jest.advanceTimersByTime(100000); // för tiden
         });
         
         startTime = screen.getByTestId("countdown")

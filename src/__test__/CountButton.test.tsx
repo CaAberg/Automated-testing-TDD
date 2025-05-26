@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import CountButton from '.'
+import CountButton from '@/app/components/Buttons/CountButton/countbutton'
 
 describe("Render the seconds to display in game", () => {
 

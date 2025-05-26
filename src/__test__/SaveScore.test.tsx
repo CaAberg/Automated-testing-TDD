@@ -1,6 +1,6 @@
 import {render, screen, fireEvent} from '@testing-library/react'
 
-import SaveScore from '.'
+import SaveScore from '@/app/components/SaveScore/savescore'
 
 describe("Save new score function works as expected", () => {
     test("Check if number is passed in", () => {
