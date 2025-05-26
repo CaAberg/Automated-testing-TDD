@@ -1,5 +1,5 @@
 import {render, screen} from '@testing-library/react'
-import SubTitle from '.'
+import SubTitle from '@/app/components/SubTitle/subtitle'
 
 test("That the subtitle is rendered correctly", () => {
     const mockDataText = "Mock subtitle"

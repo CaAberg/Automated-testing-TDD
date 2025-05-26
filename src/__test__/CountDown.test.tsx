@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import CountDown from '.'
+import CountDown from '@/app/components/CountDown/countdown'
 
 describe("Render the seconds to display in game", () => {
 
